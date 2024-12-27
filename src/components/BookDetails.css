@@ -1,0 +1,70 @@
+.detailsContainer{
+    height: 85vh;
+    background: url("/istockphoto-1195780698-612x612.jpg");
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+}
+.detailsBox{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    align-items: start;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 80px;
+    align-items: center;
+}
+.detailsBox h1{
+    display: flex;
+    
+}
+.Description{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.Description h1{
+    display: block;
+}
+.subH{
+    display: flex;
+    color: orange;
+}
+.Dheader{
+    color: orange;
+    text-decoration: underline;
+    text-decoration-color: white;
+    margin: 10px 5px;
+}
+.BBbtn, .hmbtn{
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 4px 2px 8px rgb(0,0,0,0.5);
+    transition: all 0.3s ease;
+} 
+.BBbtn:hover, .hmbtn:hover{
+    transform: scale(1.1);
+    background-color: blue;
+}
+.BBbtn h1, .hmbtn h1{
+    color: white;
+    text-shadow: 2px 4px 8px rgb(0,0,0,0.5);
+    transition: all 0.3s ease;
+}
+.BBbtn:hover h1, .hmbtn:hover h1{
+    text-shadow: 2px 4px 8px rgb(255,255,255,0.5);
+    color: orange;
+}
+

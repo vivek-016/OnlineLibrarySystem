@@ -1,0 +1,29 @@
+
+.PBHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    background-color: white;
+    padding: 5px 10px;
+}
+.PBListContainer{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    
+    
+}
+.PBList{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

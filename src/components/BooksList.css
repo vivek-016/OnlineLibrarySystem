@@ -1,0 +1,36 @@
+::-webkit-scrollbar{
+    width: 0;
+}
+
+.BLHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    background-color: white;
+    padding: 5px 10px;
+}
+.BLContainer{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    overflow: scroll;
+    width: 60vw;
+    
+    
+}
+.BL{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: silver;
+    border-radius: 5px;
+    padding: 20px 0;
+}

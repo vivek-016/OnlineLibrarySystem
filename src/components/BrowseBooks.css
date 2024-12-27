@@ -1,0 +1,92 @@
+.BBContainer{
+    background: url('/istockphoto-1195780698-612x612.jpg');
+    background-size: contain;
+    background-position: center;
+    min-height: 85vh;
+}
+
+.SearchContainer{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+    
+    
+}
+.SearchContainer input{
+    width: 30%;
+    height: 30px;
+    padding: 5px;
+    border: 3px solid blue;
+    color: orange;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.SearchContainer input:focus{
+    outline: none;
+}
+.SearchContainer button{
+    height: 30px;
+    padding: 5px;
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    font-size: large;
+    font-weight: bolder;
+}
+.SearchContainer button:hover{
+    transform: scale(1.2);
+    color: orange;
+    background: blue;
+}
+.BcategoryList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+}
+.BcategoryList h1{
+    color: blue;
+    text-decoration-line: underline;
+    text-decoration-color: orange;
+    background-color: white;
+    padding: 5px 10px;
+}
+.BcategoryList ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.BcategoryList li{
+    margin: 5px 10px;
+    font-size: xx-large;
+    color: white;
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+li:hover{
+    transform: scale(1.1);
+    background-color: blue;
+    color: orange;
+}
+.BooksList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+    margin-top: 10px;
+    
+}
